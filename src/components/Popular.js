@@ -1,11 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Popular = ({ setCategories }) => {
   return (
     <div className="popular">
       <h3>Popular</h3>
       <div className="popular-wrapper">
-        <button onClick={() => setCategories((cats) => ["Overwatch", ...cats])}>
+        <button
+          className="boton"
+          onClick={() => setCategories((cats) => ["Overwatch", ...cats])}
+        >
           Overwatch
         </button>
         <button onClick={() => setCategories((cats) => ["Capitol", ...cats])}>
@@ -30,4 +34,7 @@ const Popular = ({ setCategories }) => {
   );
 };
 
+Popular.propTypes = {
+  setCategories: PropTypes.func.isRequired,
+};
 export default Popular;

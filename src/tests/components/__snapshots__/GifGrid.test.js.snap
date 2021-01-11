@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo GifGrid Debe de cargar el componente correctamente 1`] = `
+<div
+  className="grid-wrapper"
+>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon ball
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</div>
+`;

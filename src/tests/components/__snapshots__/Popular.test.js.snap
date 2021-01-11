@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests sobre Popular se muestra el componente 1`] = `
+<div
+  className="popular"
+>
+  <h3>
+    Popular
+  </h3>
+  <div
+    className="popular-wrapper"
+  >
+    <button
+      className="boton"
+      onClick={[Function]}
+    >
+      Overwatch
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Capitol
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Pokemon
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Cats
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Covid
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Animal Crossing
+    </button>
+  </div>
+</div>
+`;

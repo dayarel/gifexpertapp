@@ -4,8 +4,8 @@ import AddCategory from "./AddCategory";
 import PropTypes from "prop-types";
 import GifGrid from "./GifGrid";
 import Popular from "./Popular";
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Simpsons"]);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <div className="container">
